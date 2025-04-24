@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produk Purevers</title>
     <style>
+
+        .header {
+            background: #f6e6b4;
+            color: #24412d;
+            padding: 10px 15px;
+            text-align: center;
+            transition: 0.3s ease;
+            font-weight: bold;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        }
         body {
             font-family: sans-serif;
             margin: 0;
@@ -36,14 +46,14 @@
         }
         .overlay {
             position: absolute;
-            bottom: 20px;
+            bottom: 70px;
             left: 0;
             right: 0;
             text-align: center;
             color: white;
             opacity: 0;
             transition: opacity 0.5s ease;
-            font-size: 1.2rem;
+            font-size: 10rem;
             font-weight: bold;
         }
         .produk:hover .overlay {
@@ -52,19 +62,25 @@
     </style>
 </head>
 <body>
+    <div class="header">
     <h2 style="text-align:center; margin-top: 30px;">Produk Unggulan Kami</h2>
+    </div>
     <div class="container">
-        <a href="about_us.html"class="produk">
+        <a href="about_madu.html"class="produk">
             <img src="logo.jpg" alt="Madu Kafein 1">
             <div class="overlay">Madu Kafein</div>
         </div>
         <div class="produk">
-            <img src="gambar/madu2.jpg" alt="Madu Kafein 2">
-            <div class="overlay">Madu Kafein</div>
+            <a href="about_us.html"class="produk">
+                <img src="logo.jpg" alt="Madu Kafein 2">
+            <div class="overlay">Madu Bawang Hitam</div>
+            </a>
         </div>
         <div class="produk">
-            <img src="gambar/madu3.jpg" alt="Madu Kafein 3">
-            <div class="overlay">Madu Kafein</div>
+            <a href="about_us.html"class="produk">
+            <img src="logo.jpg" alt="Madu Kafein 3">
+            <div class="overlay">Sabun Madu</div>
+            </a>
         </div>
         <!-- Tambah produk lagi tinggal copy -->
     </div>
